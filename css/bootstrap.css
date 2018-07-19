@@ -40,6 +40,7 @@
 *::after {
   box-sizing: border-box;
 }
+
 /* <----- Begin Jake's CSS -----> */
 .navbar {
   margin-bottom: 0;
@@ -62,7 +63,6 @@ footer {
   padding: 15px;
 }
 
-/* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 767px) {
   .sidenav {
     height: auto;
