@@ -13,11 +13,15 @@
   height: 100%;
 }
 
-footer {
+img {
+  float: left;
+}
+
+/* footer {
   background-color: #555;
   color: white;
   padding: 15px;
-}
+} */
 
 @media screen and (max-width: 767px) {
   .sidenav {
@@ -25,4 +29,8 @@ footer {
     padding: 15px;
   }
   .row.content {height:auto;}
+}
+
+.sidenav h1 {
+  font-size: 20px;
 }
