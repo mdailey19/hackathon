@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./css/jakestrap.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/rocketchat.js"></script>
   <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
@@ -37,6 +38,7 @@
     <div class="row content">
       <div class="col-sm-3 sidenav">
         <h1>Filters:</h1>
+        <hr>
       </div>
       <div class="col-sm-6">
         <h1>Data Preview:</h1>
@@ -46,11 +48,16 @@
         </table>
         <hr>
         <h1>ERD:</h1>
+        <hr>
         <p>put ERD here</p>
       </div>
       <div class="col-sm-3 sidenav">
         <div>
           <h1>Rocket.Chat:</h1>
+        </div>
+        <hr>
+        <div id="rocketchat-iframe">
+          <iframe src="http://rocketchat.ryanjkemper.com:3000"></iframe>
         </div>
       </div>
     </div>
